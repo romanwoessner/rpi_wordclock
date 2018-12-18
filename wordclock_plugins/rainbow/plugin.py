@@ -16,7 +16,7 @@ class plugin:
         """
         # Get plugin name (according to the folder, it is contained in)
         self.name = os.path.dirname(__file__).split('/')[-1]
-        self.pretty_name = "Rainbow"
+        self.pretty_name = "Regenbogen"
         self.description = "Displays a nice rainbow"
 
     def run(self, wcd, wci):

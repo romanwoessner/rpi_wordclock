@@ -19,7 +19,7 @@ class plugin:
         self.bg_color = wcc.BLACK;
         self.threshold = 0.9
 
-        self.pretty_name = "Matrix"
+        self.pretty_name = "Matrix-Effekt"
         self.description = "Why do my eyes hurt?"
 
         # Colors from black to green (and a bit gray-ish)

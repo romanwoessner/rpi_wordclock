@@ -13,7 +13,7 @@ class plugin:
         """
         # Get plugin name (according to the folder, it is contained in)
         self.name = os.path.dirname(__file__).split('/')[-1]
-        self.pretty_name = "Update"
+        self.pretty_name = "Software aktualisieren"
         self.description = "Update the wordclock software"
         self.wordclock_path = os.path.dirname(os.path.realpath(__file__))
 

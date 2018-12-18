@@ -12,7 +12,7 @@ class plugin:
         """
         # Get plugin name (according to the folder, it is contained in)
         self.name = os.path.dirname(__file__).split('/')[-1]
-        self.pretty_name = "LEDs off"
+        self.pretty_name = "LEDs ausschalten"
         self.description = "Disables the wordclock display."
 
     def run(self, wcd, wci):

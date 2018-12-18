@@ -26,7 +26,7 @@ class plugin:
         """
         # Get plugin name (according to the folder, it is contained in)
         self.name = os.path.dirname(__file__).split('/')[-1]
-        self.pretty_name = "The time"
+        self.pretty_name = "Uhrzeit (Standard)"
         self.description = "The minimum, you should expect from a wordclock."
 
         # Choose language

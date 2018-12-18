@@ -25,7 +25,7 @@ class plugin:
         """
         # Get plugin name (according to the folder, it is contained in)
         self.name = os.path.dirname(__file__).split('/')[-1]
-        self.pretty_name = "Matrix with time"
+        self.pretty_name = "Uhrzeit mit Matrix-Effekt"
         self.description = "There is no spoon?"
 
         # Choose language

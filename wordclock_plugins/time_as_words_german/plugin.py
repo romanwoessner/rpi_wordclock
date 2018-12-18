@@ -15,7 +15,7 @@ class plugin:
         """
         # Get plugin name (according to the folder, it is contained in)
         self.name = os.path.dirname(__file__).split('/')[-1]
-        self.pretty_name = "Time as words (german)"
+        self.pretty_name = "Uhrzeit als Laufschrift"
         self.description = "Displays the current time as words."
 
         self.taw = time_as_words_german.time_as_words_german()

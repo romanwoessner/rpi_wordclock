@@ -19,7 +19,7 @@ class plugin:
         """
         # Get plugin name (according to the folder, it is contained in)
         self.name = os.path.dirname(__file__).split('/')[-1]
-        self.pretty_name = "Sunrise"
+        self.pretty_name = "Sonnenaufgang und -untergang"
         self.description = "Displays the current times of sunrise and sunset."
 
         self.astral_at_location = Astral()[config.get('plugin_' + self.name, 'location')]
