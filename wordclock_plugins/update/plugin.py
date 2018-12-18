@@ -26,6 +26,6 @@ class plugin:
         print(self.wordclock_path)
         os.system("cd " + self.wordclock_path + "&& cd ../../ && git pull")
         time.sleep(30)
-        os.system("shutdown now -r")
+        os.system("systemctl restart wordclock")
         time.sleep(10)
         return
